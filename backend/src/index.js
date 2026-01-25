@@ -40,7 +40,7 @@ app.use("/api/messages",messageRoutes);
 //     res.sendFile(path.join(__dirname, "../frontend", "dist", "index.html"));
 //   });
 // }
-// server.listen(PORT, ()=>{
-//     console.log("server is running on port:"+PORT);
-//     connectDB();
-// });
+server.listen(PORT, ()=>{
+    console.log("server is running on port:"+PORT);
+    connectDB();
+});
