@@ -1,12 +1,14 @@
 import React from 'react';
 import { LogOut, Settings, User } from 'lucide-react';
 import { useAuthStore } from '../store/useAuthStore';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const { logout, authUser } = useAuthStore();
+  const navigate = useNavigate();
 
   const handleNavigate = (path) => {
-    window.location.href = path;
+    navigate(path);
   };
 
   return (
