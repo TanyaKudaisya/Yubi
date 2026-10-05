@@ -41,6 +41,6 @@ public class WebSocketConfig
     ) {
 
         registry.addEndpoint("/ws")
-                .setAllowedOriginPatterns("http://localhost:5173");
+                .setAllowedOriginPatterns("http://localhost:5173","https://yubi-2.onrender.com");
     }
 }
