@@ -154,7 +154,7 @@ export const useAuthStore = create((set, get) => ({
     }
 
     const client = new Client({
-      brokerURL: "wss://yubi.onrender.com/ws",
+      brokerURL: "wss://yubi-1.onrender.com/ws",
 
       connectHeaders: {
         Authorization: `Bearer ${token}`,

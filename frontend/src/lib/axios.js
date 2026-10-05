@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://yubi.onrender.com/api";
+const BASE_URL = "https://yubi-1.onrender.com/api";
 
 export const axiosInstance = axios.create({
   baseURL: BASE_URL,
